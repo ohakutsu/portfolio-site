@@ -2,7 +2,7 @@
 
 https://ohakutsu.com
 
-# 使用技術など
+## 使用技術など
 
 - TypeScript
 - React
@@ -13,6 +13,6 @@ https://ohakutsu.com
 - AWS S3
 - AWS CloudFront
 
-# インフラ構成図
+## インフラ構成図
 
 ![ohakutsu-com](https://user-images.githubusercontent.com/39073321/87249638-26506780-c49b-11ea-8ced-8c5bbf0f9a1e.png)
