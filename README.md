@@ -15,4 +15,4 @@ https://ohakutsu.com
 
 ## インフラ構成図
 
-![ohakutsu-com](https://user-images.githubusercontent.com/39073321/87249638-26506780-c49b-11ea-8ced-8c5bbf0f9a1e.png)
+![ohakutsu-com (1)](https://user-images.githubusercontent.com/39073321/87250217-5d744800-c49e-11ea-9bcd-93d3600c0c85.png)
