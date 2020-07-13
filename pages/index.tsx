@@ -1,12 +1,14 @@
 import * as React from 'react'
 import styled from 'styled-components'
-import { Profile } from '../components/organisms/Profile'
-import { Links } from '../components/organisms/Links'
 import { About } from '../components/organisms/About'
+import { abouts } from '../datas/abouts'
 import { Container } from '../components/templates/Container'
-import { Header } from '../components/templates/Header'
-import { Footer } from '../components/templates/Footer'
 import { Copyright } from '../components/molecules/Copyright'
+import { Footer } from '../components/templates/Footer'
+import { Header } from '../components/templates/Header'
+import { Links } from '../components/organisms/Links'
+import { links } from '../datas/links'
+import { Profile } from '../components/organisms/Profile'
 
 const IndexPage: React.FC = () => (
   <>
@@ -16,10 +18,10 @@ const IndexPage: React.FC = () => (
       </ProfileSection>
     </Header>
     <Container>
-      <About />
+      <About abouts={abouts} />
     </Container>
     <Container>
-      <Links />
+      <Links links={links} />
     </Container>
     <Footer>
       <Copyright>© 2020 ohakutsu.com</Copyright>
