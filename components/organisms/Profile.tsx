@@ -1,11 +1,12 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import { ProfileImage } from '../molecules/ProfileImage'
+import { profiles } from '../../datas/profiles'
 
 export const Profile: React.FC = () => (
   <ProfileContainer>
-    <ProfileImage src='/profile-image.png' />
-    <Title>ohakutsu.com</Title>
+    <ProfileImage src={profiles.imagePath} />
+    <Title>{profiles.title}</Title>
   </ProfileContainer>
 )
 
