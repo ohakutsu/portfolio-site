@@ -5,7 +5,7 @@ import { profiles } from '../../datas/profiles'
 
 export const Profile: React.FC = () => (
   <ProfileContainer>
-    <ProfileImage src={profiles.imagePath} />
+    <ProfileImage src={profiles.imagePath} alt='profile image' />
     <Title>{profiles.title}</Title>
   </ProfileContainer>
 )
