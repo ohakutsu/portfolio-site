@@ -5,7 +5,7 @@ const nextConfig = {
     runtimeCaching: [
       {
         urlPattern: /^https?.*/,
-        handler: 'CacheFirst',
+        handler: 'StaleWhileRevalidate',
         options: {
           cacheName: 'ohakutsu-com',
           expiration: {
