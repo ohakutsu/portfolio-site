@@ -1,6 +1,6 @@
 import React from 'react'
-import { Abouts as AboutsType } from '../../datas/abouts'
-import { SectionTitle } from '../molecules/SectionTitle'
+import { SectionTitle } from '~/components/molecules/SectionTitle'
+import { Abouts as AboutsType } from '~/datas/abouts'
 
 interface Props {
   abouts: AboutsType

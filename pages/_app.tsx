@@ -2,7 +2,7 @@ import 'milligram'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import React from 'react'
-import '../styles/main.css'
+import '~/styles/main.css'
 
 const CustomApp: React.FC<AppProps> = ({ Component, pageProps }: AppProps) => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Links as LinksType } from '../../datas/links'
-import { SectionTitle } from '../molecules/SectionTitle'
+import { SectionTitle } from '~/components/molecules/SectionTitle'
+import { Links as LinksType } from '~/datas/links'
 
 interface Props {
   links: LinksType
