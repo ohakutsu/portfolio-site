@@ -7,5 +7,5 @@ export const Container: React.FC = ({ children }) => (
 
 const StyledContainer = styled.section({
   marginBottom: '50px',
-  maxWidth: '60rem',
+  maxWidth: '768px',
 })

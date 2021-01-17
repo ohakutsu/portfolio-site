@@ -18,7 +18,7 @@ const IndexPage: React.FC = () => (
       </ProfileSection>
     </Header>
     <Container>
-      <About abouts={abouts} />
+      <About />
     </Container>
     <Container>
       <Links links={links} />
