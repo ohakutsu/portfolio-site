@@ -7,8 +7,6 @@ import { Profile } from '~/components/organisms/Profile'
 import { Container } from '~/components/templates/Container'
 import { Footer } from '~/components/templates/Footer'
 import { Header } from '~/components/templates/Header'
-import { abouts } from '~/datas/abouts'
-import { links } from '~/datas/links'
 
 const IndexPage: React.FC = () => (
   <>
@@ -21,7 +19,7 @@ const IndexPage: React.FC = () => (
       <About />
     </Container>
     <Container>
-      <Links links={links} />
+      <Links />
     </Container>
     <Footer>
       <Copyright>© 2020 ohakutsu.com</Copyright>
