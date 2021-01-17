@@ -1,19 +1,19 @@
-import * as React from 'react'
+import React from 'react'
 import styled from 'styled-components'
-import { About } from '../components/organisms/About'
-import { abouts } from '../datas/abouts'
-import { Container } from '../components/templates/Container'
 import { Copyright } from '../components/molecules/Copyright'
+import { About } from '../components/organisms/About'
+import { Links } from '../components/organisms/Links'
+import { Profile } from '../components/organisms/Profile'
+import { Container } from '../components/templates/Container'
 import { Footer } from '../components/templates/Footer'
 import { Header } from '../components/templates/Header'
-import { Links } from '../components/organisms/Links'
+import { abouts } from '../datas/abouts'
 import { links } from '../datas/links'
-import { Profile } from '../components/organisms/Profile'
 
 const IndexPage: React.FC = () => (
   <>
     <Header>
-      <ProfileSection className='container'>
+      <ProfileSection className="container">
         <Profile />
       </ProfileSection>
     </Header>
@@ -34,7 +34,7 @@ const ProfileSection = styled.section({
   flexWrap: 'wrap',
   justifyContent: 'center',
   alignItems: 'center',
-  height: '100vh'
+  height: '100vh',
 })
 
 export default IndexPage

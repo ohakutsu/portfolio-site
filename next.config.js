@@ -1,3 +1,4 @@
+/* eslint @typescript-eslint/no-var-requires: 0 */
 const withOffline = require('next-offline')
 
 const nextConfig = {
@@ -9,15 +10,15 @@ const nextConfig = {
         options: {
           cacheName: 'ohakutsu-com',
           expiration: {
-            maxAgeSeconds: 60 * 60 * 1
+            maxAgeSeconds: 60 * 60 * 1,
           },
           cacheableResponse: {
-            statuses: [0, 200]
-          }
-        }
-      }
-    ]
-  }
+            statuses: [0, 200],
+          },
+        },
+      },
+    ],
+  },
 }
 
 module.exports = withOffline(nextConfig)

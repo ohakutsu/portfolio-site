@@ -1,5 +1,5 @@
-import * as React from 'react'
+import React from 'react'
 
 export const Footer: React.FC = ({ children }) => (
-  <footer className='footer'>{children}</footer>
+  <footer className="footer">{children}</footer>
 )
