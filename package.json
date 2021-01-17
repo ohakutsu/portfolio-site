@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "milligram": "^1.4.1",
-    "next": "^9.4.4",
+    "next": "^10.0.5",
     "next-offline": "^5.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
