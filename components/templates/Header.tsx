@@ -1,5 +1,5 @@
-import * as React from 'react'
+import React from 'react'
 
 export const Header: React.FC = ({ children }) => (
-  <header className='header'>{children}</header>
+  <header className="header">{children}</header>
 )
