@@ -2,12 +2,14 @@ import 'milligram'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import React from 'react'
-import '../styles/main.css'
+import { GoogleAnalytics } from '~/lib/GoogleAnalytics'
+import '~/styles/main.css'
 
 const CustomApp: React.FC<AppProps> = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
+        <GoogleAnalytics />
         <title>ohakutsu.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta

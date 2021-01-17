@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { profiles } from '../../datas/profiles'
-import { ProfileImage } from '../molecules/ProfileImage'
+import { ProfileImage } from '~/components/molecules/ProfileImage'
+import { profiles } from '~/datas/profiles'
 
 export const Profile: React.FC = () => (
   <ProfileContainer>
