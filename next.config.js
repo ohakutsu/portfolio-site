@@ -5,7 +5,7 @@ const nextConfig = {
   workboxOpts: {
     runtimeCaching: [
       {
-        urlPattern: /^https?.*/,
+        urlPattern: new RegExp('^' + 'https://www.ohakutsu.com/' + '.*'),
         handler: 'StaleWhileRevalidate',
         options: {
           cacheName: 'ohakutsu-com',
