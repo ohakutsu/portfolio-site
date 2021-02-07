@@ -19,8 +19,12 @@ const CustomApp: React.FC<AppProps> = ({ Component, pageProps }: AppProps) => {
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta property="og:title" content="ohakutsu.com" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/ogp/ohakutsu-com.png" />
+        <meta
+          property="og:image"
+          content="https://www.ohakutsu.com/ogp/ohakutsu-com.png"
+        />
         <meta property="og:url" content="https://www.ohakutsu.com" />
+        <meta name="twitter:card" content="summary" />
       </Head>
       <main>
         <Component {...pageProps} />
