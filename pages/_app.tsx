@@ -2,7 +2,7 @@ import 'milligram'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import React from 'react'
-import { GoogleAnalytics } from '~/lib/GoogleAnalytics'
+import { GoogleAnalytics } from '~/components/organisms/GoogleAnalytics'
 import '~/styles/main.css'
 
 const CustomApp: React.FC<AppProps> = ({ Component, pageProps }: AppProps) => {
@@ -17,6 +17,10 @@ const CustomApp: React.FC<AppProps> = ({ Component, pageProps }: AppProps) => {
           content="ohakutsuのポートフォリオサイトです。"
         />
         <link rel="shortcut icon" href="/favicon.ico" />
+        <meta property="og:title" content="ohakutsu.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/ogp/ohakutsu-com.png" />
+        <meta property="og:url" content="https://www.ohakutsu.com" />
       </Head>
       <main>
         <Component {...pageProps} />
