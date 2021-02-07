@@ -24,7 +24,7 @@ const CustomApp: React.FC<AppProps> = ({ Component, pageProps }: AppProps) => {
           content="https://www.ohakutsu.com/ogp/ohakutsu-com.png"
         />
         <meta property="og:url" content="https://www.ohakutsu.com" />
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <main>
         <Component {...pageProps} />
