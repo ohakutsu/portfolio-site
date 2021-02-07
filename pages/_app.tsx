@@ -2,7 +2,7 @@ import 'milligram'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import React from 'react'
-import { GoogleAnalytics } from '~/lib/GoogleAnalytics'
+import { GoogleAnalytics } from '~/components/organisms/GoogleAnalytics'
 import '~/styles/main.css'
 
 const CustomApp: React.FC<AppProps> = ({ Component, pageProps }: AppProps) => {
