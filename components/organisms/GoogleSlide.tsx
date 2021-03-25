@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const GoogleSlide = () => (
   <Wrapper>
     <Slide
-      src="https://docs.google.com/presentation/d/e/2PACX-1vRJvT9cxfzPR_asxBZmS5HQIb8mBQ15lZrwFz6Lf8KKFc-u_JYrGkA29gwF3-GpvnLFgM9FLWqQYrlQ/embed?start=false&loop=false&delayms=3000"
+      src="https://docs.google.com/presentation/d/e/2PACX-1vQrJmKXqSJuykCSfDJ5h4tczA0J9OJhM4yeXyikjQ0U_EeHJJtkxq4jyi9PApwNjfyDlwyr7pjSmayW/embed?start=false&loop=false&delayms=3000"
       frameBorder="0"
       allowFullScreen={true}
     />
