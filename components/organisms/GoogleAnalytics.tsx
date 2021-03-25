@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const GoogleAnalytics = () => {
-  const gaId = 'G-W608FC4KX7'
+  const gaId = 'G-6QWPHW1KQ4'
 
   return (
     <>
